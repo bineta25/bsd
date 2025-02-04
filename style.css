@@ -1,0 +1,213 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2639
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 /* Styles g\'e9n\'e9raux */\
+body \{\
+    font-family: 'Arial', sans-serif;\
+    margin: 0;\
+    padding: 0;\
+    background-color: #fff0f5; /* Rose clair */\
+    color: #333;\
+    line-height: 1.6;\
+\}\
+\
+.container \{\
+    width: 90%;\
+    max-width: 1200px;\
+    margin: 0 auto;\
+\}\
+\
+/* Header */\
+header \{\
+    background-color: #ff6f61; /* Rose fonc\'e9 */\
+    color: #fff;\
+    padding: 20px 0;\
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);\
+\}\
+\
+header h1 \{\
+    margin: 0;\
+    font-size: 2.5em;\
+\}\
+\
+nav ul \{\
+    list-style: none;\
+    padding: 0;\
+    display: flex;\
+    justify-content: center;\
+    gap: 20px;\
+\}\
+\
+nav ul li a \{\
+    color: #fff;\
+    text-decoration: none;\
+    font-weight: bold;\
+    transition: color 0.3s ease;\
+\}\
+\
+nav ul li a:hover \{\
+    color: #ff3b2f; /* Rose plus fonc\'e9 */\
+\}\
+\
+/* Hero Section */\
+.hero \{\
+    background-color: #ff6f61; /* Rose fonc\'e9 */\
+    color: #fff;\
+    padding: 100px 0;\
+    text-align: center;\
+\}\
+\
+.hero h2 \{\
+    font-size: 2.5em;\
+    margin: 0;\
+\}\
+\
+.hero p \{\
+    font-size: 1.2em;\
+    margin: 20px 0;\
+\}\
+\
+.hero .btn \{\
+    background-color: #fff;\
+    color: #ff6f61;\
+    padding: 10px 20px;\
+    border-radius: 5px;\
+    text-decoration: none;\
+    font-weight: bold;\
+    transition: background-color 0.3s ease, color 0.3s ease;\
+\}\
+\
+.hero .btn:hover \{\
+    background-color: #ff3b2f;\
+    color: #fff;\
+\}\
+\
+/* Produits Section */\
+.produits \{\
+    padding: 60px 0;\
+    text-align: center;\
+\}\
+\
+.produits h2 \{\
+    font-size: 2em;\
+    margin-bottom: 40px;\
+\}\
+\
+.grid \{\
+    display: grid;\
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));\
+    gap: 20px;\
+\}\
+\
+.produit \{\
+    background-color: #fff;\
+    padding: 20px;\
+    border-radius: 10px;\
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);\
+    transition: transform 0.3s ease, box-shadow 0.3s ease;\
+\}\
+\
+.produit:hover \{\
+    transform: translateY(-10px);\
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);\
+\}\
+\
+.produit img \{\
+    max-width: 100%;\
+    border-radius: 10px;\
+\}\
+\
+.produit h3 \{\
+    font-size: 1.5em;\
+    margin: 15px 0;\
+    color: #ff6f61; /* Rose fonc\'e9 */\
+\}\
+\
+.produit p \{\
+    font-size: 1.2em;\
+    color: #555;\
+\}\
+\
+.produit button \{\
+    background-color: #ff6f61; /* Rose fonc\'e9 */\
+    color: #fff;\
+    border: none;\
+    padding: 10px 20px;\
+    border-radius: 5px;\
+    cursor: pointer;\
+    font-size: 1em;\
+    transition: background-color 0.3s ease;\
+\}\
+\
+.produit button:hover \{\
+    background-color: #ff3b2f; /* Rose plus fonc\'e9 */\
+\}\
+\
+/* T\'e9moignages Section */\
+.temoignages \{\
+    background-color: #fff;\
+    padding: 60px 0;\
+    text-align: center;\
+\}\
+\
+.temoignages h2 \{\
+    font-size: 2em;\
+    margin-bottom: 40px;\
+\}\
+\
+.temoignage \{\
+    background-color: #fff0f5; /* Rose clair */\
+    padding: 20px;\
+    border-radius: 10px;\
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);\
+\}\
+\
+.temoignage p \{\
+    font-size: 1.1em;\
+    margin: 0;\
+\}\
+\
+.temoignage span \{\
+    display: block;\
+    margin-top: 10px;\
+    font-weight: bold;\
+    color: #ff6f61; /* Rose fonc\'e9 */\
+\}\
+\
+/* Footer */\
+footer \{\
+    background-color: #ff6f61; /* Rose fonc\'e9 */\
+    color: #fff;\
+    padding: 40px 0;\
+    text-align: center;\
+\}\
+\
+footer h2 \{\
+    font-size: 2em;\
+    margin: 0;\
+\}\
+\
+footer p \{\
+    margin: 20px 0;\
+\}\
+\
+.btn-whatsapp \{\
+    background-color: #25d366; /* Couleur WhatsApp */\
+    color: #fff;\
+    padding: 10px 20px;\
+    border-radius: 5px;\
+    text-decoration: none;\
+    font-weight: bold;\
+    display: inline-flex;\
+    align-items: center;\
+    gap: 10px;\
+    transition: background-color 0.3s ease;\
+\}\
+\
+.btn-whatsapp:hover \{\
+    background-color: #128c7e; /* Couleur WhatsApp plus fonc\'e9e */\
+\}}
